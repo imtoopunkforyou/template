@@ -12,7 +12,6 @@ make:
 pre-commit:
 	isort --sp setup.cfg ./ && \
 	flake8 ./
-
 # =======
 # aliases 
 # =======
